@@ -1,0 +1,6 @@
+# Dependências só para quem desenvolve/testa o código — demais analistas não
+# precisam instalar isto pra usar o app no dia a dia.
+#
+# Instalar com: py -m pip install -r requirements-dev.txt
+-r requirements.txt
+pytest>=7.4.0,<9.0.0
