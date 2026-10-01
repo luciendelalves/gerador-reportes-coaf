@@ -70,3 +70,4 @@ desktop.ini
 # Instruções internas do assistente (contêm nomes e procedimentos internos)
 CLAUDE.md
 .claude/
+publicar_github.py

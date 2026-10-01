@@ -33,7 +33,6 @@ inteiro do zero, então sempre reflete todos os casos que estiverem
 nele até aquele momento.
 """
 
-import os
 import re
 import os
 import csv
@@ -46,10 +45,10 @@ import docx2txt
 # ==========================================================
 
 # Caminho do arquivo .docx mestre onde você acumula todos os reportes
-ARQUIVO_MESTRE = r"a pasta do projetoREPORTES AO COAF - JULHO DE 2026.docx"
+ARQUIVO_MESTRE = "REPORTES AO COAF - MES DE AAAA.docx"
 
 # Onde o CSV de saída deve ser salvo
-SAIDA_CSV = r"a pasta do projetolote_extraido.csv"
+SAIDA_CSV = "lote_extraido.csv"
 
 
 # ==========================================================
